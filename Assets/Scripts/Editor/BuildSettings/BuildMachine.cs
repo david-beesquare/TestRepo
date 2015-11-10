@@ -47,7 +47,7 @@ public class BuildMachine
         if(!version.Equals(kParamNullVersion))
         {
             PlayerSettings.bundleVersion = version;
-            PlayerSettings.iOS.buildNumber = version;
+            //PlayerSettings.iOS.buildNumber = version;
             PlayerSettings.Android.bundleVersionCode = GetVersionInteger(version);
         }
 
